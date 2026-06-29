@@ -1,0 +1,6 @@
+{
+  "name": "Real-Time 2-Person Chat",
+  "description": "A fully functional real-time 2-person chat application featuring rich media sharing, typing indicators, voice messages, online status, and dark mode.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
