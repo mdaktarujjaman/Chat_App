@@ -18,13 +18,13 @@ import {
 import { getStorage, FirebaseStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  projectId: "genuine-aurora-wfht8",
-  appId: "1:53977960567:web:151662702387904cff7672",
-  apiKey: "AIzaSyCFOPAR0et1RGKp8wv7d_Wa1qHWByY0kMA",
-  authDomain: "genuine-aurora-wfht8.firebaseapp.com",
-  firestoreDatabaseId: "ai-studio-f1339052-8572-4d14-8b63-a11a13a5c0f7",
-  storageBucket: "genuine-aurora-wfht8.firebasestorage.app",
-  messagingSenderId: "53977960567",
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  firestoreDatabaseId: import.meta.env.VITE_FIRESTORE_DB_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
 };
 
 // Initialize Firebase
